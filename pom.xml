@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- Sonar cloud -->
-        <sonar.organization>vpgautomation</sonar.organization>
+        <sonar.organization>vtiger-crm-framework</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
         <!-- Dependencies Versions -->
