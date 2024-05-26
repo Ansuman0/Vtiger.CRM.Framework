@@ -57,6 +57,6 @@ jobs:
           dockerfile: ./Dockerfile  # Adjust the path to your Dockerfile if necessary
           push: true
           tags: |
-            ansumansing/vtiger.CRM.Framework:latest
-            ansumansing/vtiger.CRM.Framework:${{ github.actor }}-latest
-            ansumansing/vtiger.CRM.Framework:${{ github.actor }}-${{ github.run_number }}
+            ansumansing/vtiger.crm.framework:latest
+            ansumansing/vtiger.crm.framework:${{ github.actor }}-latest
+            ansumansing/vtiger.crm.framework:${{ github.actor }}-${{ github.run_number }}
