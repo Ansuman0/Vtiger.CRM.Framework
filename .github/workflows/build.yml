@@ -58,5 +58,4 @@ jobs:
           push: true
           tags: |
             ansumansing/vtiger.crm.framework:latest
-            ansumansing/vtiger.crm.framework:${{ github.actor }}-latest
             ansumansing/vtiger.crm.framework:${{ github.actor }}-${{ github.run_number }}
