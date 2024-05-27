@@ -1,7 +1,11 @@
 name: SonarCloud
+
 on:
   push:
     branches:
+      - '*'
+  create:
+    branches-ignore:
       - '*'
   pull_request:
     types: [opened, synchronize, reopened]
